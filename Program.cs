@@ -75,12 +75,12 @@
 
     static int CalPower(Kingdom kingdom)
     {
-        return kingdom.Knights * 10 + kingdom.Giants * 100;
+        return kingdom.Knights * 5 + kingdom.Giants * 15;
     }
 
     static int CalApples(Kingdom kingdom)
     {
-        return kingdom.Trees * 300;
+        return kingdom.Trees * 20;
     }
 
     static Kingdom FindSuperiorKingdom(List<Kingdom> kingdoms)
